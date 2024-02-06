@@ -78,3 +78,14 @@ int result = ++num; // increment and then fetch the value
 System.out.println(result);
 
 ```
+## Arithmetical operators
+<, >, =,
+
+==, !==, <=, >=
+
+## Logical Operators
+AND = &, OR = |, NOT = !
+
+> | is called pipe
+
+- short circuit

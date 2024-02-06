@@ -42,5 +42,13 @@ class Hello {
     boolean res1 = x == y;
     System.out.println(res);
     System.out.println(res1);
+
+    // Logical Operators
+    int p = 7;
+    int q = 5;
+    int r = 5;
+    int s = 9;
+    boolean resultado = p < q || r < s || q > 1;
+    System.out.println(resultado);
   }
 }
