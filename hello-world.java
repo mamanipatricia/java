@@ -34,5 +34,13 @@ class Hello {
 
     int result = a10 * b10;
     System.out.println(result);
+
+    // Relation operators
+    int x = 6;
+    int y = 7;
+    boolean res = x > y;
+    boolean res1 = x == y;
+    System.out.println(res);
+    System.out.println(res1);
   }
 }

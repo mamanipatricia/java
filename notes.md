@@ -58,3 +58,23 @@ int result = a * b;
 System.out.println(result);
 
 ```
+
+shorthand
+
+```
+int num1 = 7;
+num1 += 1; OR num1++;
+
+// what is the difference?
+++num1; // pre increment
+num++; // post increment
+
+// this 2 operation will behave differently when you try to fetch a value
+
+// example:
+int result = num++; // fetch the value and then increment
+int result = ++num; // increment and then fetch the value
+
+System.out.println(result);
+
+```
