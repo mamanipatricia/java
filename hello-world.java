@@ -10,5 +10,14 @@ class Hello {
     char name = 'p'; // chars accept single quotes
     boolean bb = false;
     System.out.println(3 + 5 + num);
+
+    // literals
+    int num1 = 0b101;
+    int num2 = 0x7E;
+    int num3 = 10_00_00_000;
+    char vowel = 'a';
+    vowel++; // will be b
+    System.out.println(vowel);
+
   }
 }
