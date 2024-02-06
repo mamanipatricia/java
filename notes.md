@@ -27,3 +27,34 @@
         boolean b = true;
         boolean b = false;
 2. ?
+
+--
+## Type conversion and Casting
+```
+java
+
+byte b = 127;
+int a = 12;
+b = a -> b = (byte)a; // casting
+a = b; // conversion
+
+float f = 5.6f;
+int x = (int)f; // x = 5
+
+
+```
+
+- max number of a byte is 127;
+
+- CASTING = explicit conversion
+- CONVERSION = implicit conversion
+
+## type promotions
+```
+byte a = 10;
+byte b = 30;
+
+int result = a * b;
+System.out.println(result);
+
+```

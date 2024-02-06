@@ -19,5 +19,20 @@ class Hello {
     vowel++; // will be b
     System.out.println(vowel);
 
+    // Type conversion and Casting
+    byte bt = 127;
+    int aaa = b;
+
+    // 2nd way
+    int a2 = 128;
+    byte k = (byte) a2;
+    System.out.println(k); // here should'nt be able to convert from int (large number) to byte (short number)
+
+    // type promotions
+    byte a10 = 10;
+    byte b10 = 30;
+
+    int result = a10 * b10;
+    System.out.println(result);
   }
 }
